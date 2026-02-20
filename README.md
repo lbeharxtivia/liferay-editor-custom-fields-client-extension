@@ -4,8 +4,8 @@ A Liferay 7.4 global JS client extension that initializes your Liferay Editor Cu
 
 ## Getting Started
 - Use yarn to install all the liferay-editor-custom-fields packages you are going to use
-- Make sure that the version number matches the minor version of Liferay you have (e.g. 7.4) and that you use the ~ to only update patches
-- For example `yarn add @liferay-editor-custom-fields/image-enhancements@~7.4.0`
+- Make sure that the version number corresponds with the minor version of Liferay (e.g. ^74.0.0 for Liferay 7.4)
+- For example `yarn add @liferay-editor-custom-fields/image-enhancements@^74.0.0`
 - Image Tools is already added. You can remove it if you're not going to use it.
 - In src/index.js, import and run the modules. An example is below:
 

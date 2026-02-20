@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@liferay/js-api": "^0.6.2",
-    "@liferay-editor-custom-fields/image-enhancements": "~7.4.0"
+    "@liferay-editor-custom-fields/image-enhancements": "^74.0.0"
   },
   "devDependencies": {
     "webpack": "^5.105.2",
@@ -19,5 +19,5 @@
     "start": "webpack serve",
     "watch": "tsc --watch"
   },
-  "version": "7.4.0"
+  "version": "74.0.0"
 }
